@@ -1,0 +1,37 @@
+/* pages/index1/index1.wxss */
+.main{
+  background-color: #5A78C1;
+  padding: 100rpx;
+  height: 100%;
+}
+.main view{
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.main text{
+  color: white;
+}
+.header text{
+    font-size: 20px;  
+}
+.header_detail{
+  margin: 5px auto;
+  font-size: 12px;
+}
+.header image{
+  width: 18px;
+  height: 18px;
+}
+
+.prompt{
+  margin: 50px 0px 10px 0px;
+  font-size: 14px;
+}
+.btn{
+  margin: 10px 0px;
+}
+.btn button{
+  
+  height: 42px;
+  font-size: 16px;
+}

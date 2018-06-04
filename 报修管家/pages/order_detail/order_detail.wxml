@@ -1,0 +1,31 @@
+<!--pages/order_detail/order_detail.wxml-->
+<!-- <text>pages/order_detail/order_detail.wxml</text> -->
+<view class='content'>
+
+<!-- 订单状态 -->
+  <view class='order_status'>
+  <text>订单状态 : </text><text>已受理</text>
+  <view class='time'><text>2018-5-20</text></view>
+  </view>
+<!-- 联系 -->
+  <view class='header'>
+  <view><p class="name"><text>报修人：</text><text>许天琦</text></p>
+  <p class="phone"><text>18222335623</text></p>
+  <p class="img"> <image src='../../image/电话.png'></image> </p>
+  </view>
+  <view style='clear:both'></view>
+  <view><text>报修地址：</text><text>天津中德应用技术大学 H1-305</text></view>
+  </view>
+<!-- 订单详情 -->
+  <view class='main'>
+    <view class='main_header'><text>报修详情</text></view>
+    <view class='main_content'><text>学校把我椅子没收了</text></view>
+    <view class='image_div'>
+      <image src='../../image/头像.jpg'></image>
+      <image src='../../image/头像.jpg'></image>
+      <image src='../../image/头像.jpg'></image>
+    </view>
+    <view class='time'><text>2018-5-20</text></view>
+  </view>
+  <view class='btn_phone'><button>拨打电话</button></view>
+</view>

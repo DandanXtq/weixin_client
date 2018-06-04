@@ -1,0 +1,40 @@
+/* pages/submit/submit.wxss */
+Page{
+  background-color: #eaeaea;
+}
+.content{
+  padding: 10px;
+}
+.content view{
+  margin: 8px 0px;
+}
+.content text{
+  color: #474747;
+}
+.content textarea{
+  background: white;
+   width: 100%; 
+  /* border-radius: 5%; */
+  height: 240rpx;
+}
+.btn button{
+  height: 42px;
+  font-size: 16px;
+  background: #5A78C1;
+  color: white;
+  margin-top: 20px;
+  width: 90%
+}
+.img{
+  float: left;
+}
+.img image{
+  width: 30px;
+  height: 30px;
+}
+.problem_input input{
+  padding: 4px;
+  background-color: white;
+  height:24px;
+  width: 100%;
+}

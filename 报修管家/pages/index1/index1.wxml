@@ -1,0 +1,8 @@
+<!--pages/index1/index1.wxml-->
+<view class="main">
+  <view class="header"><image src='../../image/报修.png' mode="scaleToFill"></image><text> 欢迎使用报修小管家</text></view>
+  <view class='header_detail'><text>报修小管家，为您提供更便捷的报修服务！</text></view>
+  <view class='prompt'><text>--请选择用户身份--</text></view>
+  <view class='btn'><button open-type="getUserInfo" bindgetuserinfo="login">用户</button></view>
+  <view class='btn'><button>管理者</button></view>
+</view>

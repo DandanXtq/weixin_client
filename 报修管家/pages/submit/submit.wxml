@@ -1,0 +1,30 @@
+<!--pages/submit/submit.wxml-->
+<!-- <text>pages/submit/submit.wxml</text> -->
+<view class='content'>
+<form>
+ <view class='problem'><text>问题描述</text></view>
+ <view class='describe'>
+ <textarea focus="{{true}}" placeholder="请详细描述你的问题..."></textarea></view>
+ <view><text>图片(单击预览，拖拽删除)</text></view>
+<view class="img-v">
+  <view class="img" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+      <image src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"     bindtouchmove='deleteImg'></image>
+      <!-- <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg"></view> -->
+    </view>
+  <view class='img' bindtap="chooseImg"><image src='../../image/相机.png'></image></view>
+</view>
+<view style='clear:both'></view>
+<view class='problem_input'>
+  <view style='float:left'><text>姓名：</text></view>
+  <view><input placeholder="(必填)"> </input></view>
+   <view style='clear:both'></view> 
+  <view style='float:left'><text>手机：</text></view>
+  <view><input  type="number" placeholder="(必填)"></input></view>
+   <view style='clear:both'></view> 
+  <view style='float:left'><text>地址：</text></view>
+  <view><input  placeholder="(必填)"></input></view>
+</view>
+ 
+<view class='btn'><button>提交</button></view>
+</form>
+</view>
